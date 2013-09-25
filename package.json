@@ -1,6 +1,6 @@
 {
   "name": "embr-presets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Preset vertex buffer functions for embr",
   "main": "index.js",
   "repository": {
