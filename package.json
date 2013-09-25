@@ -1,6 +1,6 @@
 {
   "name": "embr-presets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Preset vertex buffer functions for embr",
   "main": "index.js",
   "repository": {
@@ -17,6 +17,6 @@
     "url": "https://github.com/notlion/embr-presets/issues"
   },
   "dependencies": {
-    "embr": "0.0.5"
+    "embr": "0.0.6"
   }
 }
