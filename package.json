@@ -1,0 +1,22 @@
+{
+  "name": "embr-presets",
+  "version": "0.0.0",
+  "description": "Preset vertex buffer functions for embr",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notlion/embr-presets.git"
+  },
+  "keywords": [
+    "plask",
+    "webgl"
+  ],
+  "author": "Ryan Alexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notlion/embr-presets/issues"
+  },
+  "dependencies": {
+    "embr": "0.0.5"
+  }
+}
