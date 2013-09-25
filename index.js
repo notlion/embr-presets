@@ -41,7 +41,7 @@ exports.createPlane = function(xa, ya, xb, yb) {
                                      1, 0,
                                      1, 1 ]);
 
-  return new embr.Vbo(gl.TRIANGLE_STRIP)
+  return new embr.Vbo(embr.gl.TRIANGLE_STRIP)
     .createAttr('position', { data: positions, size: 3 })
     .createAttr('normal',   { data: normals,   size: 3 })
     .createAttr('texcoord', { data: texcoords, size: 2 });
@@ -87,7 +87,7 @@ exports.createBox = function() {
       inited = true;
     }
 
-    return new embr.Vbo(gl.TRIANGLES)
+    return new embr.Vbo(embr.gl.TRIANGLES)
       .createAttr('position', { data: positions, size: 3 })
       .createAttr('normal',   { data: normals,   size: 3 })
       .createAttr('texcoord', { data: texcoords, size: 2 })
@@ -126,7 +126,7 @@ exports.createEllipse = function(xRadius, yRadius, numSegments) {
     texcoords[i2] = 0;
   }
 
-  return new embr.Vbo(gl.TRIANGLE_FAN)
+  return new embr.Vbo(embr.gl.TRIANGLE_FAN)
     .createAttr('position', { data: positions, size: 3 })
     .createAttr('normal',   { data: normals,   size: 3 })
     .createAttr('texcoord', { data: texcoords, size: 2 });
